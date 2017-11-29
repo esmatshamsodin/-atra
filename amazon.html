@@ -8,6 +8,37 @@
 	<title>amazon</title>
 	<link rel="stylesheet" href="st.css">
 </head>
+<style>
+*{
+	box-sizing:border-box;
+
+}
+
+body {
+    margin: 0;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 75%;
+}
+.left img{
+	border-radius: 50%;
+	display: inline;
+}
+.right {
+  width: 25%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
 <body>
 	<div class="hedear">
 		<a href="https://www.amazon.com/stream/ref=nav_upnav_LargeImage_C_Gateway?asCursor=WyIxLjgiLCJ0czEiLCIxNTExODUxMjAwMDAwIiwiIiwiUzAwMDQ6MDpudWxsIiwiUzAwMDQ6MjoxIiwiUzAwMDQ6MDotMSIsIiIsIiIsIjAiLCJzdWIyIiwiMTUxMTg1ODIzNTk4NiIsImhmMS1zYXZlcyIsIjE1MTE4NTMzMDAwMDAiLCJ2MSIsIjE1MTE4NTgyMzMxNjIiLCJ2MSIsIjE1MDEwMTYzNDk2NTgiLCJ2MSIsIjE1MTE4NTA2NDMyNTciXQ%3D%3D&asCacheIndex=0&asYOffset=-348.3999938964844">
@@ -15,25 +46,52 @@
 		</a>
 	</div>
 	<div class="flexh">
-		<div>
-			<img src="http://www.toxel.com/wp-content/uploads/2010/06/logo04.jpg" width="100" height="60">
+		<div id="space">
+			<img src="file:///C:/Users/jam/Desktop/New%20folder%20(2)/logo1.png" width="100" height="60">
 		</div>
-		
-		<div id="logo3">
+
+		<div>
 			<div id="form">
-			<div>
-			
-			<form action="http://google.com/search" method="get" >
+				<form action="http://google.com/search" method="get" >
 				<input  id="search2" type="text" name="search" placeholder="search....">
 				<input id="search3" name="submit" type="submit"  value="search">
 
 				</form>
-		</div>
-			<div><img src="C:\Users\jam\Desktop\New folder (2)\logo2.jpg" width="400" height="60">
 			</div>
 		</div>
 
 		
-	
+		<div id="logo3">
+			<img src="C:\Users\jam\Desktop\New folder (2)\logo2.jpg" width="200" height="60">
+		</div>
+		</div>
+
+		<div class="border-new">
+			<ul id="nav">
+				<li><a href="#">Departments</a></li>
+				<li><a href="#"> Your Amazon.com</a></li>
+				<li><a href="#">Cyber Monday Deals Week</a></li>
+				<li><a href="#">Gift cards</a></li>
+				<li><a href="#"></a>Registry</li>
+				<li><a href="#"></a>Sell</li>
+				<li><a href="#"></a>Help</li>
+			</ul>
+		</div>
+	<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <img src="C:\Users\jam\Desktop\New folder (2)\11.jpg" width="100" height="100">
+    <img src="C:\Users\jam\Desktop\New folder (2)\12.jpg" width="100" height="100">
+    <img src="C:\Users\jam\Desktop\New folder (2)\13.jpg" width="100" height="100">
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <img src="C:\Users\jam\Desktop\New folder (2)\1.jpg" alt="" width="100%" height="300">
+    <img src="C:\Users\jam\Desktop\New folder (2)\2.jpg" alt="" width="100%" height="350">
+    <img src="C:\Users\jam\Desktop\New folder (2)\4.jpg" alt="" width="100%" height="250">
+    <img src="C:\Users\jam\Desktop\New folder (2)\3.jpg" alt="" width="100%" height="350">
+    <img src="C:\Users\jam\Desktop\New folder (2)\5.jpg" alt="" width="100%" height="350">
+    <img src="C:\Users\jam\Desktop\New folder (2)\6.jpg" alt="" width="100%" height="350">
+    <img src="C:\Users\jam\Desktop\New folder (2)\7.jpg" alt="" width="100%" height="350">
+  </div>
+</div>
 </body>
 </html>

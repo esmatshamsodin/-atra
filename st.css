@@ -1,11 +1,16 @@
+html{
+  background-color: #232F3E;
+}
 .flexh{
 	 display: flex;
-  background-color: black;
+  background-color: #232F3E;
+  justify-content: space-between;
 }
 .flexh>div{
-   background-color: blue;
+   background-color:  #232F3E;
+   display: inline-flex;
   color: white;
-  width: 1050px;
+  width: 1000px;
   height:50px;
   margin: 10px;
   text-align: left;
@@ -24,8 +29,31 @@
 	text-align: top;
 	font-size: 8px;
 }
+#space{
+  background-color: #232F3E;
+  color: white;
+  width: 200px;
+  height:50px;
+  margin: 10px;
+  text-align: right;
+  line-height: 0px;
+  font-size: 30px;
+  overflow: hidden;
+}
+#form{
+  background-color:  #232F3E;
+  color: white;
+  width: 1000px;
+  height:50px;
+  margin-bottom: 10px;
+  margin-left:10px;
+  text-align: left;
+  line-height: 10px;
+  font-size: 30px;
+  overflow: hidden;
+}
 input[type=text]
-{ width:600px;
+{ width:400px;
 	
 	border:2px solid #ccc;
 	
@@ -41,8 +69,11 @@ input[type=text]:focus {
 	width:100%;
 }
 #form{
-	width:800px;
+	width:600px;
 
+}
+#search2{
+  
 }
 
 #search3{
@@ -54,8 +85,49 @@ border-radius: 8px;
 font-family: arial;
 }
 #logo3{
-  float:right;
-  width:100px;
-  height:40px;
+  
+  background-color: #232F3E;
+  color: white;
+  width: 800px;
+  height:50px;
+  margin-left: 250px;
+  text-align: left;
+  line-height: 0px;
+  font-size: 30px;
+  overflow: hidden;
 
+}
+.border-new>div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+#nav{
+direction: ltr;
+background-color: #232F3E;
+height: 40px;
+overflow: hidden;
+color: white;
+}
+ 
+#nav li{
+display: inline;
+}
+ 
+#nav li a{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+padding: 15px;
+background-color:#232F3E;
+color: #ffffff;
+border-bottom: 2px;
+border-bottom-color: #232F3E;
+}
+ 
+#nav li a:hover{
+background-color: #9B1C26;
+padding-bottom: 12px;
 }
